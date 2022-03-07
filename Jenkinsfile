@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imageRepo = "asadullahkhan/testingackend"
+    imageRepo = "asadullahkhan/poc-backend"
     registryCredential = 'docker'
     dockerImage = ''
   }
